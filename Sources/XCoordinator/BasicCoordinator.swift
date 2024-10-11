@@ -7,7 +7,7 @@
 //
 
 /// A BasicCoordinator with a `UINavigationController` as its rootViewController.
-public typealias BasicNavigationCoordinator<R: Route> = BasicCoordinator<R, NavigationTransition>
+public typealias BasicNavigationCoordinator<R: Route> = BasicCoordinator<R, XCNavigationTransition>
 
 /// A BasicCoordinator with a `UIViewController` as its rootViewController.
 public typealias BasicViewCoordinator<R: Route> = BasicCoordinator<R, ViewTransition>

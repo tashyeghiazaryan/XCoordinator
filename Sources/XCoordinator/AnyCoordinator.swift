@@ -9,7 +9,7 @@
 import UIKit
 
 /// A type-erased Coordinator (`AnyCoordinator`) with a `UINavigationController` as rootViewController.
-public typealias AnyNavigationCoordinator<RouteType: Route> = AnyCoordinator<RouteType, NavigationTransition>
+public typealias AnyNavigationCoordinator<RouteType: Route> = AnyCoordinator<RouteType, XCNavigationTransition>
 
 /// A type-erased Coordinator (`AnyCoordinator`) with a `UITabBarController` as rootViewController.
 public typealias AnyTabBarCoordinator<RouteType: Route> = AnyCoordinator<RouteType, TabBarTransition>
